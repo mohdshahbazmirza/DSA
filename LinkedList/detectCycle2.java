@@ -22,9 +22,9 @@ public class Solution {
             if(slow==fast)
             {
                 while(head != slow){
-            head = head.next;
-            slow = slow.next;
-        }
+                head = head.next;
+                slow = slow.next;
+            }
         return head;
             }
         }
