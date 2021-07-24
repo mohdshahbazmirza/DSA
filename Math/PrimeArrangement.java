@@ -1,9 +1,10 @@
 class Solution {
     public static boolean arr[];
-        public static TreeSet<Integer> prime=new TreeSet<>();
+        public static TreeSet<Integer> prime; 
         public static void primesieve(int n)
         {
             arr=new boolean[n+1];
+            prime=new TreeSet<>();
             Arrays.fill(arr,true);
             for(int i=2;i*i<=n;i++)
                 if(arr[i])
@@ -22,7 +23,7 @@ class Solution {
         int b=n-a;
         long fact=1;
         long mod=1000000007;
-        System.out.println(a+" "+b);
+        //System.out.println(a+" "+b);
         for(int i=2;i<=a;i++)
         {
             fact=(fact*i)%mod;
