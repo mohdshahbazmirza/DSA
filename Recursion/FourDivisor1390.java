@@ -24,3 +24,16 @@ class Solution {
         return ans;
     }
 }
+/*
+TreeSet<String> ts=new TreeSet<>();
+for(int i=0;i<sub_count;i++)
+{
+    ts.add(arr[i]);
+}
+int count=0;
+for(String s:ts)
+{
+    count++;
+    if(s.equals(X))
+        return count;
+}*/
